@@ -6,5 +6,3 @@ datadrivencv::use_datadriven_cv(
   html_location = "muratkaya.netlify.app/cv/",
   source_location = "https://github.com/cosmicwaves/cv"
 )
-
-usethis::use_github()
