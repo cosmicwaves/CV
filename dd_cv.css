@@ -36,10 +36,21 @@ sup {
 /* Customize some of the sizing variables */
 :root {
   --sidebar-width: 12rem; /* Shrink sidebar width  */
-  --sidebar-background-color: #f7fbff; /* Make sidebar blue */
+  --sidebar-background-color: #eaf9f5; /* Make sidebar blue */
   --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
   --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
   --decorator-border: 2px solid #bdd7e7; /* Make timeline a blue as well*/
+}
+
+a {
+	color: #095a95;
+
+}
+
+a:hover {
+	text-decoration: underline dotted;
+	
+
 }
 
 .details .place {

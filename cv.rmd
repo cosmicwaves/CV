@@ -41,6 +41,9 @@ if(params$pdf_mode) {
 }
 ```
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+<script src="https://kit.fontawesome.com/1f72d6921a.js" crossorigin="anonymous"></script>
+
 
 Aside
 ================================================================================
@@ -65,20 +68,25 @@ Contact {#contact}
 
 <i class = "fa fa-github"></i> [Github: `@`cosmicwaves](https://github.com/cosmicwaves)
 
-<i class = "fab fa-orcid"></i> <a href = 'https://orcid.org/0000-0003-4350-5917> Orcid </a>
+<i class = "fab fa-orcid"></i> <a href = 'https://orcid.org/0000-0003-4350-5917'> Orcid </a>
 
 <i class = "fa fa-home"></i> [muratkaya.netlify.app](https://muratkaya.netlify.app)
 
 
 
-Language Skills {#skills}
+Languages {#languages}
 --------------------------------------------------------------------------------
 
-```{r}
-CV %>% print_skill_bars()
-```
+**Turkish:** Native
 
+**English:** Proficient
 
+**R:** Intermediate
+
+**Python:** Beginner
+
+<br>
+<br>
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
@@ -124,12 +132,6 @@ CV %<>% print_section('research_positions')
 
 Projects {data-icon=project-diagram}
 --------------------------------------------------------------------------------
-
-::: aside
-```{r}
-CV %<>% print_text_block('projects_aside')
-```
-:::
 
 ```{r}
 CV %<>% print_section('projects')
