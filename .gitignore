@@ -1,4 +1,8 @@
-.Rproj.user
+.Rproj.user/
+*Rproj
 .Rhistory
-.RData
-.Ruserdata
+.secrets
+.DS_Store
+*_cache/
+
+ddcv_cache.rds
