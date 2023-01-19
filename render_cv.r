@@ -13,7 +13,7 @@ source("CV_printing_functions.R")
 cv_data <- create_CV_object(
   data_location = "https://docs.google.com/spreadsheets/d/1nSr6Lx2D8eHBwU79iobgk41yMGfBb-zcCs_EWmvwsWI/edit?usp=sharing",
   cache_data = FALSE,
-  pdf_mode = TRUE
+  pdf_mode = FALSE
 )
 
 readr::write_rds(cv_data, 'ddcv_cache.rds')
