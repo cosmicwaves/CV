@@ -6,7 +6,7 @@
 #'
 #' @param data_location Path of the spreadsheets holding all your data. This can be
 #'   either a URL to a google sheet with multiple sheets containing the four
-#'   data types or a path to a folder containing four `.csv`s with the neccesary
+#'   data types or a path to a folder containing four `.csv`s with the necessary
 #'   data.
 #' @param source_location Where is the code to build your CV hosted?
 #' @param pdf_mode Is the output being rendered into a pdf? Aka do links need
@@ -48,7 +48,7 @@ create_CV_object <-  function(data_location,
     tidyr::unite(
       tidyr::starts_with('description'),
       col = "description_bullets",
-      sep = "\n- ",
+      sep = "\n",
       na.rm = TRUE
     ) %>%
     dplyr::mutate(
